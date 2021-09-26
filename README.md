@@ -1,2 +1,2 @@
 # Dataset Creation
-Synthetic dataset creation for robotic grasping 
+Synthetic dataset generation for robotic grasping 
