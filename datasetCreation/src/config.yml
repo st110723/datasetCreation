@@ -1,0 +1,61 @@
+debugConfig:
+  debug: True
+
+dirConfig:
+#  workingDir: "/home/badri/datasetCreation2/datasetCreation"
+  workingDir: "D:/OneDrive - bwedu/Documents/MASTER/9.Semester/Masterarbeit/Dataset_creation/Code/datasetCreation/datasetCreation"
+#  workingDir: "/mnt/d/OneDrive - bwedu/Documents/MASTER/9.Semester/Masterarbeit/Dataset_creation/Code/datasetCreation/datasetCreation"
+  rgbDir: "results/images/rgb"
+  depthDir: "results/images/depth"
+  segmentationDir: "results/images/mask"
+  rgbWithLabelDir: "results/images/rgb_with_label"
+  csvDir: "results/csv_files"
+  logsDir: "logs"
+
+planeConfig:
+  useFile: True
+  pathToUrdf: "urdfs/plane/mars_plane.urdf"
+
+gripperConfig:
+  type: "robotiq85"
+  pathToUrdf: "urdfs/grippers/robotiq85/robotiq85.urdf"
+  startPosition: [0, 0, 1]
+  startOrientation: [0, 3.14159265359, -1.570796326795]
+  lateralFriction: 0.3
+
+objectConfig:
+  generateUrdf: False
+  pathToMesh: "meshes/objects/sample_tube.obj"
+  density: 1800
+  unit: "mm"
+  pathToUrdf: "urdfs/objects/sample_tube.urdf"
+  mode: "random"
+  startPosition: [0, 0, 1]
+  startOrientation: [0, 0, 0]
+  lateralFriction: 0.3
+
+rockConfig:
+  generateUrdf: False
+  pathToMesh: "meshes/objects/rock.obj"
+  density: 2000
+  unit: "mm"
+  pathToUrdf: "urdfs/objects/rock.urdf"
+  lateralFriction: 0.6
+
+cameraConfig:
+  imageWidth: 1920
+  imageHeight: 1080
+  fov: 42.5
+  aspect: 1.78
+  nearVal: 0.01
+  farVal: 0.5
+
+simConfig:
+  timeStep: 0.002
+  numIterations: 150
+  mode: "auto"
+  epsilon: 0.0001
+  enableGUI: True
+  createVideo: False
+  pathToVideo: "results/video.mp4"
+

@@ -1,0 +1,28 @@
+<robot name="sample_tube">
+	<link name="base_link">
+	    <contact>
+            <contact_cfm value="0.1" />
+            <contact_erp value="0.8" />
+        </contact>
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0" />
+			<geometry>
+				<mesh filename="meshes/objects/sample_tube_visual.obj" scale="1 1 1" />
+			</geometry>
+			<material name="red">
+                <color rgba="1 0 0 1" />
+            </material>
+		</visual>
+		<collision>
+		    <origin rpy="0 0 0" xyz="0 0 0" />
+			<geometry>
+				<mesh filename="meshes/objects/sample_tube_collision.obj" scale="1 1 1" />
+			</geometry>
+		</collision>
+		<inertial>
+		    <origin rpy="0 0 0" xyz="0 0 0" />
+			<mass value="0.6571679038794612" />
+			<inertia ixx="0.006287639701097366" ixy="6.475869646944e-08" ixz="7.246047871462079e-08" iyy="0.00025259778484439257" iyz="-1.4403787596238988e-06" izz="0.006288193405321061" />
+		</inertial>
+	</link>
+</robot>

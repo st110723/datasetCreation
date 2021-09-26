@@ -1,0 +1,14 @@
+2021-09-25 13:14:35,682 INFO Start simulation
+2021-09-25 13:14:35,720 DEBUG Number of rocks: 6
+2021-09-25 13:14:35,810 INFO Loading plane
+2021-09-25 13:14:35,811 INFO Loading object
+2021-09-25 13:14:35,817 INFO Object start orientation: [0, 0, 0.8598774238051714]
+2021-09-25 13:14:35,817 INFO Dropping object
+2021-09-25 13:14:35,902 DEBUG Counter: 1000, Delta: 3.014826621506597e-08
+2021-09-25 13:14:37,025 INFO Checking if object is outside camera FOV
+2021-09-25 13:14:37,026 DEBUG Object outside camera FOV: False
+2021-09-25 13:14:38,027 INFO Getting camera image
+2021-09-25 13:14:39,128 DEBUG Image name: 2561434525163741800
+2021-09-25 13:14:39,250 INFO Loading gripper
+2021-09-25 13:14:39,564 INFO Moving gripper to start position
+2021-09-25 13:14:39,759 DEBUG Counter: 252, Error: 9.309624795339477e-05

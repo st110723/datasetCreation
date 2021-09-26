@@ -1,0 +1,24 @@
+<robot name="screwdriver">
+	<link name="base_link">
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0" />
+			<geometry>
+				<mesh filename="meshes/objects/screwdriver.obj" scale="1 1 1" />
+			</geometry>
+			<material name="red">
+                <color rgba="1 0 0 1" />
+            </material>
+		</visual>
+		<collision>
+		    <origin rpy="0 0 0" xyz="0 0 0" />
+			<geometry>
+				<mesh filename="meshes/objects/screwdriver.obj" scale="1 1 1" />
+			</geometry>
+		</collision>
+		<inertial>
+		    <origin rpy="0 0 0" xyz="0 0 0" />
+			<mass value="0.37900177952926256" />
+			<inertia ixx="8.825737511856512e-05" ixy="1.2744538967506873e-08" ixz="-1.270555259487614e-08" iyy="0.0009796711662821609" iyz="-5.240574243032216e-10" izz="0.0009782263324374968" />
+		</inertial>
+	</link>
+</robot>

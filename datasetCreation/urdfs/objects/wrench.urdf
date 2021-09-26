@@ -1,0 +1,24 @@
+<robot name="wrench">
+	<link name="base_link">
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0" />
+			<geometry>
+				<mesh filename="meshes/objects/wrench.obj" scale="1 1 1" />
+			</geometry>
+			<material name="red">
+                <color rgba="1 0 0 1" />
+            </material>
+		</visual>
+		<collision>
+		    <origin rpy="0 0 0" xyz="0 0 0" />
+			<geometry>
+				<mesh filename="meshes/objects/wrench.obj" scale="1 1 1" />
+			</geometry>
+		</collision>
+		<inertial>
+		    <origin rpy="0 0 0" xyz="0 0 0" />
+			<mass value="97025.70354370023" />
+			<inertia ixx="121349.92392829209" ixy="0.00433635042950679" ixz="0.00034589794624177256" iyy="7698101.270973618" iyz="-0.0004523019855270741" izz="7588797.811614194" />
+		</inertial>
+	</link>
+</robot>
